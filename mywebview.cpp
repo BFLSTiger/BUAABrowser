@@ -14,7 +14,6 @@ QWebEngineView *MyWebView::createWindow(QWebEnginePage::WebWindowType type)
     {
         MainWindow *newwindow = new MainWindow(this->page()->profile(),nullptr);
         newwindow->setManager(this->manager);
-        this->manager->mcount++;
         newwindow->setWindowState(Qt::WindowMaximized);
         newwindow->show();
         return newwindow->starttab();
