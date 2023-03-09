@@ -57,8 +57,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/refresh.png</normaloff>:/logo/buttons/refresh.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/refresh.png</normaloff>:/icons/refresh.png</iconset>
    </property>
    <property name="shortcut">
     <string>F5</string>
@@ -101,8 +101,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/forward.png</normaloff>:/logo/buttons/forward.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/forward.png</normaloff>:/icons/forward.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -148,8 +148,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/home.png</normaloff>:/logo/buttons/home.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/home.png</normaloff>:/icons/home.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -204,8 +204,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/stop.png</normaloff>:/logo/buttons/stop.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -259,8 +259,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/back.png</normaloff>:/logo/buttons/back.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/back.png</normaloff>:/icons/back.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -379,8 +379,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/add.png</normaloff>:/logo/buttons/add.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="download_Button">
@@ -426,8 +426,8 @@ background-color: rgb(152,182,201);
     <string/>
    </property>
    <property name="icon">
-    <iconset resource="logos.qrc">
-     <normaloff>:/logo/buttons/download.png</normaloff>:/logo/buttons/download.png</iconset>
+    <iconset>
+	 <normaloff>:/icons/download.png</normaloff>:/icons/download.png</iconset>
    </property>
   </widget>
   <widget class="QWidget" name="horizontalLayoutWidget">
@@ -558,8 +558,8 @@ background-color: rgb(152,182,201);
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="logos.qrc">
-        <normaloff>:/logo/buttons/upward.png</normaloff>:/logo/buttons/upward.png</iconset>
+       <iconset>
+		<normaloff>:/icons/upward.png</normaloff>:/icons/upward.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -596,8 +596,8 @@ background-color: rgb(152,182,201);
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="logos.qrc">
-        <normaloff>:/logo/buttons/downward.png</normaloff>:/logo/buttons/downward.png</iconset>
+       <iconset>
+		<normaloff>:/icons/downward.png</normaloff>:/icons/downward.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -634,8 +634,8 @@ background-color: rgb(152,182,201);
        <string/>
       </property>
       <property name="icon">
-       <iconset resource="logos.qrc">
-        <normaloff>:/logo/buttons/stop.png</normaloff>:/logo/buttons/stop.png</iconset>
+       <iconset>
+		<normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -657,8 +657,6 @@ background-color: rgb(152,182,201);
   <zorder>horizontalLayoutWidget</zorder>
   <zorder>findWidget</zorder>
  </widget>
- <resources>
-  <include location="logos.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

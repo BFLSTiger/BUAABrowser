@@ -1,5 +1,5 @@
 <RCC>
-    <qresource prefix="/logo/buttons">
+    <qresource prefix="/icons">
         <file>forward.png</file>
         <file>refresh.png</file>
         <file>back.png</file>
@@ -16,7 +16,10 @@
         <file>downward.png</file>
         <file>upward.png</file>
     </qresource>
-    <qresource prefix="/">
-        <file>BrowserLogo.ico</file>
+    <qresource prefix="/homepage">
+        <file>home.html</file>
+        <file>background.png</file>
+        <file>search.png</file>
+        <file>stop.png</file>
     </qresource>
 </RCC>

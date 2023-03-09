@@ -18,13 +18,13 @@ MainWindow::MainWindow(QWebEngineProfile *profile,QWidget *parent)
     this->connect(close_Button,SIGNAL(clicked()),this,SLOT(closewindow()));
 
     size_Button = new QPushButton(this);
-    size_Button->setIcon(QIcon(":/logo/buttons/small.png"));
+    size_Button->setIcon(QIcon(":/icons/small.png"));
     size_Button->setIconSize(QSize(12,12));
     size_Button->setStyleSheet("QPushButton{font-weight:500;font-size:24px;border:none;outline:none;}\nQPushButton:hover{background-color: rgb(92,141,170);}");
     this->connect(size_Button,SIGNAL(clicked()),this,SLOT(windowresize()));
 
     min_Button = new QPushButton(this);
-    min_Button->setIcon(QIcon(":/logo/buttons/min.png"));
+    min_Button->setIcon(QIcon(":/icons/min.png"));
     min_Button->setIconSize(QSize(10,10));
     min_Button->setStyleSheet("QPushButton{font-weight:500;font-size:24px;border:none;outline:none;}\nQPushButton:hover{background-color: rgb(92,141,170);}");
     this->connect(min_Button,SIGNAL(clicked()),this,SLOT(showMinimized()));
@@ -126,7 +126,7 @@ void MainWindow::resizeEvent(QResizeEvent *event)
         this->ui->buttomright_label->setVisible(false);
         this->ui->buttom_label->setVisible(false);
         this->ui->buttomleft_label->setVisible(false);
-        this->size_Button->setIcon(QIcon(":/logo/buttons/small.png"));
+        this->size_Button->setIcon(QIcon(":/icons/small.png"));
     }
     else
     {
@@ -163,7 +163,7 @@ void MainWindow::resizeEvent(QResizeEvent *event)
         this->ui->buttomright_label->setVisible(true);
         this->ui->buttom_label->setVisible(true);
         this->ui->buttomleft_label->setVisible(true);
-        this->size_Button->setIcon(QIcon(":/logo/buttons/large.png"));
+        this->size_Button->setIcon(QIcon(":/icons/large.png"));
     }
 }
 
@@ -256,13 +256,13 @@ void MainWindow::windowresize()
         }
         maxflag=false;
         this->setGeometry(smallrt);
-        this->size_Button->setIcon(QIcon(":/logo/buttons/large.png"));
+        this->size_Button->setIcon(QIcon(":/icons/large.png"));
     }
     else
     {
         maxflag=true;
         this->setGeometry(largert);
-        this->size_Button->setIcon(QIcon(":/logo/buttons/small.png"));
+        this->size_Button->setIcon(QIcon(":/icons/small.png"));
     }
 }
 

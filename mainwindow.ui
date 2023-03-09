@@ -20,7 +20,7 @@
    <string>BUAABrowser</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="logos.qrc">
+   <iconset>
     <normaloff>:/BrowserLogo.ico</normaloff>:/BrowserLogo.ico</iconset>
   </property>
   <property name="styleSheet">
@@ -202,8 +202,6 @@
    <zorder>buttomleft_label</zorder>
   </widget>
  </widget>
- <resources>
-  <include location="logos.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

@@ -33,7 +33,7 @@ set(PROJECT_SOURCES
 		subwindow.ui
 		downloadmanager.ui
 		downloadwidget.ui
-		logos.qrc
+		sources.qrc
 		icon.rc
         ${TS_FILES}
 )
