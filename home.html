@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <title>新建标签页</title>
+        <style>
+            .main
+            {
+                height: 100vh;
+                width: 100vw;
+                margin: 0,0;
+                display: grid;
+                grid-template-rows: 30% 60px auto;
+                background-image: url(background.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .inputframe
+            {
+                display: grid;
+                grid-template-columns: auto 65px 65px;
+                background-color: rgb(203, 222, 234);
+                margin:0 auto;
+                border-radius: 29px;
+                opacity: 0.8;
+            }
+            .inputform
+            {
+                background: none;
+                margin-left: 25px;
+                margin-right: 5px;
+                font-weight: 400;
+                border-width: 0;
+                font-size: 20px;
+                line-height: 24px;
+                outline: none;
+            }
+            .searchbutton
+            {
+                margin-left: -5px;
+                float: left;
+                background: none;
+                border-width: 0;
+                cursor: pointer;
+                outline: none;
+            }
+            .clearbutton
+            {
+                margin-left: -5px;
+                float: left;
+                background: none;
+                border-width: 0;
+                cursor: pointer;
+                outline: none;
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body style="margin: 0 0;">
+        <div class="main" role="main">
+            <div class="inputframe" style="grid-row:2;width: 50%;">
+                <input id="inputform" type="text" class="inputform" oninput="inputchanged(this)" onkeydown="keyenter()">
+                <button id="clear" class="clearbutton" onclick="inputclear()">
+                    <img src="stop.png" width="30" height="30">
+                </button>
+                <button id="search" class="searchbutton">
+                    <img src="search.png" width="30" height="30" onclick="goto()">
+                </button>
+            </div>
+        </div>
+        <script>
+            function inputchanged(obj)
+            {
+                if(obj.value!="")
+                    clear.style.visibility="visible";
+                else
+                {
+                    clear.style.visibility="hidden";
+                }
+            }
+            function inputclear()
+            {
+                inputform.value="";
+                clear.style.visibility="hidden";
+            }
+            function goto()
+            {
+                window.location.href="https://www-baidu-com-s.vpn.buaa.edu.cn:8118/s?ie=UTF-8&wd="+inputform.value;
+            }
+            function keyenter(event)
+            {
+                event=event||window.event;
+                if(event.keyCode==13)
+                    goto()
+            }
+        </script>
+    </body>
+</html>

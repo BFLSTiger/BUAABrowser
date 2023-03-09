@@ -1,0 +1,22 @@
+#ifndef QHEADERS_H
+#define QHEADERS_H
+#include <QDir>
+#include <QRect>
+#include <QPoint>
+#include <QWidget>
+#include <QObject>
+#include <QProcess>
+#include <QFileDialog>
+#include <QMouseEvent>
+#include <QPushButton>
+#include <QMainWindow>
+#include <QWebEngineView>
+#include <QWebEnginePage>
+#include <QWebEngineProfile>
+#include <QWebEngineHistory>
+#include <QWebEngineSettings>
+#include <QWebEngineDownloadRequest>
+#include <QWebEngineFindTextResult>
+#include <QWebEngineCertificateError>
+#include <QWebEngineFullScreenRequest>
+#endif // QHEADERS_H

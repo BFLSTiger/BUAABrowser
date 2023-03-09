@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/logo/buttons">
+        <file>forward.png</file>
+        <file>refresh.png</file>
+        <file>back.png</file>
+        <file>stop.png</file>
+        <file>home.png</file>
+        <file>add.png</file>
+        <file>download.png</file>
+        <file>small.png</file>
+        <file>large.png</file>
+        <file>continue.png</file>
+        <file>pause.png</file>
+        <file>folder.png</file>
+        <file>min.png</file>
+        <file>downward.png</file>
+        <file>upward.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>BrowserLogo.ico</file>
+    </qresource>
+</RCC>
