@@ -131,8 +131,8 @@ background-color: rgb(152,182,201);
       <string/>
      </property>
      <property name="icon">
-      <iconset resource="logos.qrc">
-       <normaloff>:/logo/buttons/pause.png</normaloff>:/logo/buttons/pause.png</iconset>
+      <iconset>
+	   <normaloff>:/icons/pause.png</normaloff>:/icons/pause.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -172,8 +172,8 @@ background-color: rgb(152,182,201);
       <string/>
      </property>
      <property name="icon">
-      <iconset resource="logos.qrc">
-       <normaloff>:/logo/buttons/stop.png</normaloff>:/logo/buttons/stop.png</iconset>
+      <iconset>
+	   <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
      </property>
      <property name="iconSize">
       <size>
@@ -185,8 +185,6 @@ background-color: rgb(152,182,201);
    </item>
   </layout>
  </widget>
- <resources>
-  <include location="logos.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
