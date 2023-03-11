@@ -29,7 +29,7 @@ QWebEngineView *MyWebView::createWindow(QWebEnginePage::WebWindowType type)
     }
     if(type==QWebEnginePage::WebDialog)
     {
-        return nullptr;
+        return QWebEngineView::createWindow(type);
     }
-    return nullptr;
+    return QWebEngineView::createWindow(type);
 }
