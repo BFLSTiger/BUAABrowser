@@ -186,23 +186,23 @@ void MainWindow::mousePressEvent(QMouseEvent *event)
     int b=event->position().toPoint().y();
     int c=this->width()-a;
     int d=this->height()-b;
-    if(b<=35&&b>=3&&a>=3&&c>=3)
+    if(b<=35&&b>=4&&a>=4&&c>=4)
         this->mdrag=1;
-    if(c<3&&b>=3&&d>=3)
+    if(c<4&&b>=4&&d>=4)
         this->mdrag=2;
-    if(b<3&&c<3)
+    if(b<4&&c<4)
         this->mdrag=3;
-    if(b<3 && a>=3 && c>=3)
+    if(b<4 && a>=4 && c>=4)
         this->mdrag=4;
-    if(a<3&&b<3)
+    if(a<4&&b<4)
         this->mdrag=5;
-    if(a<3&&b>=3&&d>=3)
+    if(a<4&&b>=4&&d>=4)
         this->mdrag=6;
-    if(a<3&&d<3)
+    if(a<4&&d<4)
         this->mdrag=7;
-    if(d<3&&a>=3&&c>=3)
+    if(d<4&&a>=4&&c>=4)
         this->mdrag=8;
-    if(c<3&&d<3)
+    if(c<4&&d<4)
         this->mdrag=9;
 }
 void MainWindow::mouseMoveEvent(QMouseEvent *event)
