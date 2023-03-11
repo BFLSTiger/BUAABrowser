@@ -95,7 +95,7 @@ void MainWindow::resizeEvent(QResizeEvent *event)
     {
         this->ui->tabWidget->setGeometry(0,0,this->width(),this->height());
         this->ui->tabWidget->setStyleSheet(QString("QTabWidget::pane {\
-                                                    border: none;\
+                                                        border: none;\
                                                     }\
                                                     QTabBar::tab\
                                                     {\
@@ -104,8 +104,12 @@ void MainWindow::resizeEvent(QResizeEvent *event)
                                                         width: 240;\
                                                         border-top-left-radius:10;\
                                                         border-top-right-radius:10;\
-                                                        background-color:white;\
                                                     }\
+                                                    QTabBar::tab:selected{background-color:white;}\
+                                                    QTabBar::tab:hover:!selected{background-color:rgb(122,177,210);}\
+                                                    QTabBar::close-button{image:url(:/icons/stop.png);}\
+                                                    QTabBar::close-button:hover{background-color:rgb(208,208,208);}\
+                                                    QTabBar::close-button:pressed{background-color:rgb(179,179,179);}\
                                                     QTabBar{\nmax-width: ")+QString::number(this->width()-135)+";\n}");
         close_Button->setGeometry(this->width()-45,0,45,35);
         size_Button->setGeometry(this->width()-90,0,45,35);
@@ -132,7 +136,7 @@ void MainWindow::resizeEvent(QResizeEvent *event)
     {
         this->ui->tabWidget->setGeometry(3,3,this->width()-6,this->height()-6);
         this->ui->tabWidget->setStyleSheet(QString("QTabWidget::pane {\
-                                                    border: none;\
+                                                        border: none;\
                                                     }\
                                                     QTabBar::tab\
                                                     {\
@@ -141,8 +145,12 @@ void MainWindow::resizeEvent(QResizeEvent *event)
                                                         width: 240;\
                                                         border-top-left-radius:10;\
                                                         border-top-right-radius:10;\
-                                                        background-color:white;\
                                                     }\
+                                                    QTabBar::tab:selected{background-color:white;}\
+                                                    QTabBar::tab:hover:!selected{background-color:rgb(122,177,210);}\
+                                                    QTabBar::close-button{image:url(:/icons/stop.png);}\
+                                                    QTabBar::close-button:hover{background-color:rgb(208,208,208);}\
+                                                    QTabBar::close-button:pressed{background-color:rgb(179,179,179);}\
                                                     QTabBar{\nmax-width: ")+QString::number(this->width()-141)+";\n}");
         close_Button->setGeometry(this->width()-48,3,45,35);
         size_Button->setGeometry(this->width()-93,3,45,35);
