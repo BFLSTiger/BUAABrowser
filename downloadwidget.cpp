@@ -42,7 +42,7 @@ void DownloadWidget::downloadProgress()
     if(this->download->state()==QWebEngineDownloadRequest::DownloadCompleted)
     {
         this->ui->progressBar->setVisible(false);
-        this->ui->play_Button->setIcon(QIcon(":/icons/folder.png"));
+        this->ui->play_Button->setIcon(QIcon(":/src/folder.png"));
         this->ui->status_label->setText(tr("%1").arg(withUnit(this->download->receivedBytes())));
     }
     if(this->download->state()==QWebEngineDownloadRequest::DownloadCancelled)
@@ -51,7 +51,7 @@ void DownloadWidget::downloadProgress()
     }
     if(this->download->state()==QWebEngineDownloadRequest::DownloadInterrupted)
     {
-        this->ui->play_Button->setIcon(QIcon(":/icons/continue.png"));
+        this->ui->play_Button->setIcon(QIcon(":/src/continue.png"));
         this->ui->progressBar->setStyleSheet("QProgressBar\
         {\
         border-radius:2;\
@@ -103,7 +103,7 @@ void DownloadWidget::on_play_Button_clicked()
     if(this->download->isPaused())
     {
         this->download->resume();
-        this->ui->play_Button->setIcon(QIcon(":/icons/pause.png"));
+        this->ui->play_Button->setIcon(QIcon(":/src/pause.png"));
         this->ui->progressBar->setStyleSheet("QProgressBar\
         {\
         border-radius:2;\
@@ -117,7 +117,7 @@ void DownloadWidget::on_play_Button_clicked()
     else
     {
         this->download->pause();
-        this->ui->play_Button->setIcon(QIcon(":/icons/continue.png"));
+        this->ui->play_Button->setIcon(QIcon(":/src/continue.png"));
         this->ui->progressBar->setStyleSheet("QProgressBar\
         {\
         border-radius:2;\

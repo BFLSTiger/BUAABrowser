@@ -21,7 +21,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>:/BrowserLogo.ico</normaloff>:/BrowserLogo.ico</iconset>
+	<normaloff>:/BrowserLogo.ico</normaloff>:/BrowserLogo.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(102,157,190);</string>

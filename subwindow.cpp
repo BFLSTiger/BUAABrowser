@@ -23,7 +23,7 @@ SubWindow::SubWindow(QWebEngineProfile *profile,QWidget *parent)
     this->connect(this->web_view->page()->profile(),SIGNAL(downloadRequested(QWebEngineDownloadRequest*)),this,SLOT(webDownload(QWebEngineDownloadRequest*)));
     this->ui->horizontalLayoutWidget->setGeometry(0,30,this->width(),this->height()-30);
     this->ui->horizontalLayout->addWidget(this->web_view);
-    this->homeurl = "qrc:/homepage/home.html";
+    this->homeurl = "qrc:/src/home.html";
     this->web_view->load(QUrl(this->homeurl));
     this->ui->findWidget->hide();
     this->ui->findWidget->move(this->width()-500,30);

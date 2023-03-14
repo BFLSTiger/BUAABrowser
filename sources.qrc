@@ -1,25 +1,22 @@
 <RCC>
-    <qresource prefix="/icons">
-        <file>forward.png</file>
-        <file>refresh.png</file>
-        <file>back.png</file>
-        <file>stop.png</file>
-        <file>home.png</file>
-        <file>add.png</file>
-        <file>download.png</file>
-        <file>small.png</file>
-        <file>large.png</file>
-        <file>continue.png</file>
-        <file>pause.png</file>
-        <file>folder.png</file>
-        <file>min.png</file>
-        <file>downward.png</file>
-        <file>upward.png</file>
-    </qresource>
-    <qresource prefix="/homepage">
-        <file>home.html</file>
-        <file>background.png</file>
-        <file>search.png</file>
-        <file>stop.png</file>
+    <qresource prefix="/">
+        <file>src/add.png</file>
+        <file>src/back.png</file>
+        <file>src/background.png</file>
+        <file>src/continue.png</file>
+        <file>src/download.png</file>
+        <file>src/downward.png</file>
+        <file>src/folder.png</file>
+        <file>src/forward.png</file>
+        <file>src/home.html</file>
+        <file>src/home.png</file>
+        <file>src/large.png</file>
+        <file>src/min.png</file>
+        <file>src/pause.png</file>
+        <file>src/refresh.png</file>
+        <file>src/search.png</file>
+        <file>src/small.png</file>
+        <file>src/stop.png</file>
+        <file>src/upward.png</file>
     </qresource>
 </RCC>

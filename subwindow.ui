@@ -58,7 +58,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/refresh.png</normaloff>:/icons/refresh.png</iconset>
+	 <normaloff>:/src/refresh.png</normaloff>:/src/refresh.png</iconset>
    </property>
    <property name="shortcut">
     <string>F5</string>
@@ -102,7 +102,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/forward.png</normaloff>:/icons/forward.png</iconset>
+	 <normaloff>:/src/forward.png</normaloff>:/src/forward.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -149,7 +149,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/home.png</normaloff>:/icons/home.png</iconset>
+	 <normaloff>:/src/home.png</normaloff>:/src/home.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -205,7 +205,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
+	 <normaloff>:/src/stop.png</normaloff>:/src/stop.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -260,7 +260,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/back.png</normaloff>:/icons/back.png</iconset>
+	 <normaloff>:/src/back.png</normaloff>:/src/back.png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -380,7 +380,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/add.png</normaloff>:/icons/add.png</iconset>
+	 <normaloff>:/src/add.png</normaloff>:/src/add.png</iconset>
    </property>
   </widget>
   <widget class="QPushButton" name="download_Button">
@@ -427,7 +427,7 @@ background-color: rgb(152,182,201);
    </property>
    <property name="icon">
     <iconset>
-	 <normaloff>:/icons/download.png</normaloff>:/icons/download.png</iconset>
+	 <normaloff>:/src/download.png</normaloff>:/src/download.png</iconset>
    </property>
   </widget>
   <widget class="QWidget" name="horizontalLayoutWidget">
@@ -559,7 +559,7 @@ background-color: rgb(152,182,201);
       </property>
       <property name="icon">
        <iconset>
-		<normaloff>:/icons/upward.png</normaloff>:/icons/upward.png</iconset>
+		<normaloff>:/src/upward.png</normaloff>:/src/upward.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -597,7 +597,7 @@ background-color: rgb(152,182,201);
       </property>
       <property name="icon">
        <iconset>
-		<normaloff>:/icons/downward.png</normaloff>:/icons/downward.png</iconset>
+		<normaloff>:/src/downward.png</normaloff>:/src/downward.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
@@ -635,7 +635,7 @@ background-color: rgb(152,182,201);
       </property>
       <property name="icon">
        <iconset>
-		<normaloff>:/icons/stop.png</normaloff>:/icons/stop.png</iconset>
+		<normaloff>:/src/stop.png</normaloff>:/src/stop.png</iconset>
       </property>
       <property name="flat">
        <bool>true</bool>
