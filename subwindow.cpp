@@ -108,15 +108,6 @@ void SubWindow::on_url_lineEdit_returnPressed()
         url=QUrl::fromUserInput(this->ui->url_lineEdit->text());
         if(url.scheme()=="http")url.setScheme("https");
     }
-    QString urlhost=url.host();
-    if(urlhost.right(15)!="vpn.buaa.edu.cn")
-    {
-        urlhost.replace("-","--");
-        urlhost.replace(".","-");
-        urlhost+=(url.port()==-1?"-s":"-"+QString::number(url.port())+"-p")+".vpn.buaa.edu.cn";
-        url.setHost(urlhost);
-        url.setPort(8118);
-    }
     this->web_view->load(url);
 }
 
