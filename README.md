@@ -16,8 +16,6 @@ https://github.com/BFLSTiger/BUAABrowser/releases
 
 下载BUAABrowserSetup.exe后点击安装即可。如果无法打开浏览器，请在安装目录下点击运行`vc_redist.x64.exe`后再次尝试。
 
-如果是进行版本更新，请先卸载旧版本浏览器后再安装新版浏览器。
-
 ## 使用方法
 
 公共版浏览器打开即可使用。
